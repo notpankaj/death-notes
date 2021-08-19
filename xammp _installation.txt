@@ -1,0 +1,14 @@
+To Install Composer Package:
+$ curl -Ss https://getcomposer.org/installer | php
+  
+To move the file into bin directory
+$ sudo mv composer.phar /usr/local/bin/composer  
+
+To make the file exectuable
+$ chmod +x /usr/local/bin/composer  
+  
+To make the composer auto update
+$ sudo composer self -update  
+
+
+:------------------------------------------------------
